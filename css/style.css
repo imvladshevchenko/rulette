@@ -666,6 +666,7 @@ a {
     padding: 1em 0;
 		margin-top: 0;
 		font-size: 4.375em;
+		-webkit-text-size-adjust: 88%;
 	}
 	.modal__close-button {
 		width: 16em;
