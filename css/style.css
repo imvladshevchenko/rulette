@@ -663,7 +663,10 @@ a {
 	.modal__button {
 		background-image: url(../img/mobile/popup-btn-mob.png);
 		width: 7.3em;
-    padding: 4.4% 0;
+		padding: auto;
+		height: 4.4em;
+    display: flex;
+    align-items: center;
 		margin-top: 0;
 		font-size: 4.375em;
 		-webkit-text-size-adjust: 88%;
