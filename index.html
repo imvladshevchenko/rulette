@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>PariMatch</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/fav/pm.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<a href="/">
+			<img class="header__logo" src="./img/desktop/logo.png" alt="logo">
+		</a>
+	</header>
+	<div class="cosmonaut1">
+		<img class="cosmonaut-desktop" src="./img/desktop/cosmonaut.png" alt="">
+		<img class="cosmonaut-mobile"  src="./img/mobile/cosmonaut.png" alt="">
+	</div>
+	<div class="cosmonaut2">
+		<img class="cosmonaut-desktop"  src="./img/desktop/cosmonaut_2.png" alt="">
+		<img class="cosmonaut-mobile" src="./img/mobile/cosmonaut_2.png" alt="">
+	</div>
+	<div class="space1">
+		<img src="./img/desktop/space.png" alt="">
+	</div>
+	<div class="space2">
+		<img src="./img/desktop/space_2.png" alt="">
+	</div>
+	<div class="space3">
+		<img src="./img/desktop/space3.png" alt="">
+	</div>
+	<div class="planet">
+		<img src="./img/desktop/planet.png" alt="">
+	</div>
+	<div class="arrow">
+		<img src="./img/desktop/arrow.png" alt="">
+	</div>
+
+	<div class="wheel-wrapper">
+		<img class="wheel--outside" src="./img/wheel_outside.png" alt="wheel-outside">
+		<!-- <img class="wheel--outside--mobile" src="./img/wheel_outside-m.png" alt="wheel-outside"> -->
+		<img class="wheel--inside" id="wheel" src="./img/wheel_inside.png" alt="wheel-inside">
+		<!-- <img class="wheel--inside--mobile" id="wheelMobile" src="./img/wheel_inside-m.png" alt="wheel-inside"> -->
+		<a class="wheel-btn" id="button" onclick="animation()" href="##">
+			<span>крутить</span>
+		</a>
+	</div>
+	<div class="modal" id="modal">
+		<p class="modal__title">Tabriklaymiz!</p>
+		<div class="modal__text-wrapper">
+			<p class="modal__text">Siz yutdingiz
+				+200 ta firspin</p>
+		</div>
+		<a class="modal__button" href="">
+			<p id="buttonText">Bonuslarni oling</p>
+		</a>
+		<a class="modal__close-button" id="closePopup" href="##" onclick="closeModal()">
+		</a>
+	</div>
+	<div id="overlay"></div>
+	<main class="main">
+		<div class="container">
+			<ul class="list">
+				<li class="list-item">
+					<img class="list-item__img" src="./img/desktop/1.png" alt="">
+					<p class="list-item__text">Ko'p o'yin stollari</p>
+				</li>
+				<li class="list-item">
+					<img class="list-item__img" src="./img/desktop/2.png" alt="">
+					<p class="list-item__text">Jonli dilerlar</p>
+				</li>
+				<li class="list-item">
+					<img class="list-item__img" src="./img/desktop/3.png" alt="">
+					<p class="list-item__text">1000+ spin</p>
+				</li>
+				<li class="list-item">
+					<img class="list-item__img" src="./img/desktop/4.png" alt="">
+					<p class="list-item__text last-child">10% naqd pul</p>
+				</li>
+			</ul>
+		</div>
+	</main>
+
+
+	<script src="js/bundle.js"></script>
+</body>
+
+</html>
