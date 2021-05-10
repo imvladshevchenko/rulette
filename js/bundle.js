@@ -9,7 +9,6 @@ var buttonText = document.getElementById("buttonText");
 var counter = 0;
 
 function animation() {
-  console.log(innerWidth)
   if (counter < 1) {
     if (innerWidth < 500) {
       buttonText.innerHTML = 'OK'
