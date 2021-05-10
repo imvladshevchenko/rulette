@@ -170,7 +170,7 @@ a {
   position: absolute;
   right: -13.2em;
   top: 31em;
-  animation: space-spining 10s infinite;
+  animation: space-spining 30s linear infinite;
 }
 
 .space3 > img {
@@ -345,11 +345,8 @@ a {
   0% {
     transform: rotate(0deg);
   }
-  50% {
-    transform: rotate(45deg);
-  }
   100% {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }
 
