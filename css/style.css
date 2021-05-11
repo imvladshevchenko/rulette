@@ -217,6 +217,7 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
+  transform: translateX(-1.5em);
 }
 
 .list-item__img {
@@ -522,10 +523,10 @@ a {
 .wheel-btn {
   position: absolute;
   left: 50%;
-  top: 29.8em;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  top: 29.9em;
+  -webkit-transform: translateX(-51.8%);
+  -ms-transform: translateX(-51.8%);
+  transform: translateX(-51.8%);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -638,7 +639,7 @@ a {
   font-weight: 500;
   font-size: 1.5em;
   color: #fff;
-  max-width: 7em;
+  max-width: 8em;
   margin: 0 auto;
 }
 
@@ -671,13 +672,16 @@ a {
   .cosmonaut2 > img {
     width: 49em;
   }
+  .list {
+    transform: translateX(0);
+  }
   .list-item__img {
     width: 16.8em;
   }
   .list-item__text {
     font-size: 3.35em;
     font-family: "Roboto-bold";
-    max-width: 5.6em;
+    max-width: 7.3em;
   }
   .last-child {
     max-width: none;
@@ -685,12 +689,13 @@ a {
   .list-item:nth-of-type(2) {
     margin-top: 5em;
     margin-right: 0;
+    margin-left: -4em;
   }
   .list-item:nth-of-type(3) {
     margin-top: 5em;
   }
   .main {
-    max-width: 90.55em;
+    max-width: 94.75em;
     margin-top: 62em;
   }
   .modal {
@@ -714,7 +719,7 @@ a {
   }
   .modal__button {
     background-image: url(../img/mobile/popup-btn-mob.png);
-    width: 7.3em;
+    width: 10.5em
     padding: unset;
     height: 4.4em;
     display: -webkit-box;

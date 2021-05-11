@@ -12,14 +12,14 @@ var counter = 0;
 
 function animation() {
   if (counter < 1) {
-    if (innerWidth < 500) {
-      buttonText.innerHTML = "OK";
-    }
+    // if (innerWidth < 500) {
+    //   buttonText.innerHTML = "OK";
+    // }
     wheel.classList.toggle("step-1");
     wheelBtn.classList.toggle("animation-in-process");
     counter++;
   } else {
-    buttonText.innerHTML = "O‘ynash";
+    // buttonText.innerHTML = "O‘ynash";
     firstWrapper.style.display = "none";
     secondWrapper.style.display = "block";
     wheel.classList.toggle("step-2");
