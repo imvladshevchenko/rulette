@@ -110,6 +110,7 @@ a {
   height: 4.5em;
   background-color: rgba(23, 4, 49, 0.7);
   margin-bottom: 46.02em;
+  z-index: 1;
 }
 
 .header__logo {
