@@ -6,6 +6,13 @@ var secondWrapper = document.getElementById("secondWrapper");
 var buttonText = document.getElementById("buttonText");
 var redirectLink = document.getElementById("redirectLink");
 
+
+
+var HREF_LINK = "";
+
+
+
+
 var counter = 0;
 
 function animation() {
@@ -22,7 +29,7 @@ function animation() {
     wheel.classList.toggle("step-2");
     wheelBtn.classList.toggle("animation-in-process");
     closePopup.style.display = "none";
-    redirectLink.href = "/";
+    redirectLink.href = HREF_LINK;
   }
   function modalPopup() {
     modal.classList.toggle("modal-active");
