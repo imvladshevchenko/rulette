@@ -6,26 +6,22 @@ var secondWrapper = document.getElementById("secondWrapper");
 var buttonText = document.getElementById("buttonText");
 var redirectLink = document.getElementById("redirectLink");
 
-
-
 var HREF_LINK = "";
-
-
-
 
 var counter = 0;
 
 function animation() {
   if (counter < 1) {
     if (innerWidth < 500) {
-      buttonText.innerHTML = 'OK'
+      buttonText.innerHTML = "OK";
     }
     wheel.classList.toggle("step-1");
     wheelBtn.classList.toggle("animation-in-process");
     counter++;
   } else {
-    firstWrapper.style.display = "none"
-    secondWrapper.style.display = "block"
+    buttonText.innerHTML = "O‘ynash";
+    firstWrapper.style.display = "none";
+    secondWrapper.style.display = "block";
     wheel.classList.toggle("step-2");
     wheelBtn.classList.toggle("animation-in-process");
     closePopup.style.display = "none";
