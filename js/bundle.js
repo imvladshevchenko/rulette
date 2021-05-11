@@ -19,7 +19,7 @@ function animation() {
     wheelBtn.classList.toggle("animation-in-process");
     counter++;
   } else {
-    // buttonText.innerHTML = "O‘ynash";
+    buttonText.innerHTML = "Забрать бонусы";
     firstWrapper.style.display = "none";
     secondWrapper.style.display = "block";
     wheel.classList.toggle("step-2");
