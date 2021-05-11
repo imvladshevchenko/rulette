@@ -4,7 +4,7 @@ var closePopup = document.getElementById("closePopup");
 var firstWrapper = document.getElementById("firstWrapper");
 var secondWrapper = document.getElementById("secondWrapper");
 var buttonText = document.getElementById("buttonText");
-
+var redirectLink = document.getElementById("redirectLink");
 
 var counter = 0;
 
@@ -22,6 +22,7 @@ function animation() {
     wheel.classList.toggle("step-2");
     wheelBtn.classList.toggle("animation-in-process");
     closePopup.style.display = "none";
+    redirectLink.href = "/";
   }
   function modalPopup() {
     modal.classList.toggle("modal-active");
